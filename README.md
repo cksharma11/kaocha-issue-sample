@@ -1,4 +1,5 @@
 # kaocha-issue-sample
+https://github.com/lambdaisland/kaocha/issues/155
 
 run : `./bin/kaocha :foo-test`
 
