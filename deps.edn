@@ -1,0 +1,4 @@
+{:paths ["src" "resources" "test"]
+ :aliases {:kaocha {:extra-deps {lambdaisland/kaocha {:mvn/version "1.0.641"}}}
+           :dev {:extra-deps {mock-clj {:mvn/version "0.2.0"}}}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}}}

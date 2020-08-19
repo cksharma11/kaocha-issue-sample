@@ -1,4 +1,6 @@
 #kaocha/v1
-    {:tests [{:id          :unit}
-             {:id          :foo-test
-              :focus-meta [:bar]}]}
+{:tests [{:id          :unit
+          :ns-patterns [".*"]}
+         {:id          :foo-test
+          :ns-patterns [".*"]
+          :focus-meta  [:foo]}]}
